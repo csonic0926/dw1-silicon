@@ -12,6 +12,9 @@ and open questions.
   `tools/tests/drop_shadow_bounds.py`. Independently based on phase0, excluding all other
   local fixes. Player acceptance was on a combined local app; clean checks are separate.
   Original-PS1 comparison and independent Sol/Astra review remain pending: draft only.
+  Published, player-authorised drafts (2026-11-11):
+  https://github.com/loafykitten/dw1-silicon/pull/7 and
+  https://github.com/loafykitten/dw_decomp/pull/3. Neither is merge-ready.
 
 - **Current status (2026-10-15, session 6):** Phases 1-4, 6 and 7 done; Phase 5
   (overlays) has battles, training and the Item Keeper certified; Phase 9's streams reached the

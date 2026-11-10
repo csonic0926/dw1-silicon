@@ -62,6 +62,10 @@ For each bug:
   and textbox corrections. None is included here; clean checks above were rerun without them.
   Manual testing used keyboard only; no physical controller was available. Original saves
   and preferences were unchanged during installation. No full-playthrough claim is made.
+- **Publication (player authorised, 2026-11-11):** independent drafts
+  https://github.com/loafykitten/dw1-silicon/pull/7 and
+  https://github.com/loafykitten/dw_decomp/pull/3. The upstream submodule URL is unchanged;
+  a fresh recursive public clone with no local object references passes the regression.
 - **Draft gates/provenance:** original-PS1 pixels/behavior, the full oracle fixture suite
   and independent Sol/Astra review remain outstanding; no review convergence is claimed.
   The decomp companion must be accepted before final integration. No disc contents, assets,

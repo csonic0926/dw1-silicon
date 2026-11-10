@@ -16,6 +16,9 @@ whole before starting, and don't re-ask Ember anything answered here. Keep the
   limitations. Independent model review and original-PS1 certification are NOT complete;
   submit as a draft, not merge-ready. The companion implementation must be accepted before
   final integration. No disc-derived artifacts or binaries are published.
+  Published, player-authorised drafts (2026-11-11):
+  https://github.com/loafykitten/dw1-silicon/pull/7 and
+  https://github.com/loafykitten/dw_decomp/pull/3. Neither is merge-ready.
 
 - **Phase 8 (renderer and extras) is done** (Ember: "Looks good to me!", 2026-10-14;
   `docs/phase8-plan.md`, its Progress section
