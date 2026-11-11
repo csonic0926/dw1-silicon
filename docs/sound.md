@@ -59,6 +59,10 @@ HOME="$preview_home" DW1_SAVE_DIR= \
 
 ## Validation and Draft limitations
 
+Independent contribution: [Draft PR #8](https://github.com/loafykitten/dw1-silicon/pull/8).
+A fresh public checkout fetched the unchanged upstream submodules and also passed
+240 tests (0 failed, 27 fixture-dependent ignored).
+
 - Ten volume/state/bridge/persistence/SDL tests, two synthetic WAV validation/loop tests,
   and one input-filter regression cover normal and failure paths. Tests use temporary
   preferences and synthetic PCM, not saves or game assets.
