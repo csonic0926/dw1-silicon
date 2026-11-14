@@ -31,6 +31,7 @@ The observed camera word was zero, but a constant-zero workaround would be incor
 
 ## Independent contribution and integration
 
+Parent Draft: https://github.com/loafykitten/dw1-silicon/pull/9.
 Companion Draft: https://github.com/loafykitten/dw_decomp/pull/4 (commit
 `2b5652df60fc1631862af3e3103be5b642eb42f9`). A fresh bare fetch through the unchanged
 upstream submodule URL succeeds after opening the companion Draft.
@@ -69,6 +70,9 @@ upstream submodule URL; a fork-only pin is a Draft dependency, not an accepted u
   reads live C flag changes as 0, 0x55, -1 (0x80), -1 (0xff), preserves no-shadow behavior
   for 0x80, and still traps at unknown index 0x2828. No GameShark can run in this fixture.
   This is not an unmodified replay of the player's complete battle/retreat.
+- A fresh public clone fetches both remote submodule pins through the unchanged upstream
+  URL and passes sanitizer checks, workspace **230/0/27** and release build with the local
+  cached toolchain.
 - Existing new-game recording: **19/19 native canonical checkpoints identical** and the
   47,171,368-byte headless WAV is byte-identical. No audio playback. These are native
   before/after checks, not fresh original-PS1 certification.
